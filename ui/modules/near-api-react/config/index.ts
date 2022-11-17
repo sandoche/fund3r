@@ -11,7 +11,7 @@ const getConfig = (networkId = 'testnet'): ConnectConfig => {
     keyStore: new keyStores.BrowserLocalStorageKeyStore(),
     networkId,
     nodeUrl: `https://rpc.${networkId}.near.org`,
-    walletUrl: `https://wallet.${networkId}.near.org`,
+    walletUrl: networkId === 'testnet' ? `https://testnet.mynearwallet.com` : `https://app.mynearwallet.com`,
     helperUrl: `https://helper.${networkId}.near.org`,
     headers: {},
   };
