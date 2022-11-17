@@ -1,4 +1,3 @@
-/* eslint-disable max-lines */
 import axios from 'axios';
 import type NearApiSignatureInterface from 'types/NearApiSignatureInterface';
 
