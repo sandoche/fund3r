@@ -2,14 +2,20 @@ version: "3.9"
 services:
   ui:
     build: ./ui/
+    ports:
+      - "3000:3000"
   api:
     build: ./api/
     depends_on:
       - "mongo"
+    ports:
+      - "4000:4000"
   admin:
     build: ./admin/
     depends_on:
       - "mongo"
+    ports:
+      - "8080:8080"
   mongo:
     image: mongo
     restart: always
