@@ -1,4 +1,4 @@
-# fund3r
+# FUND3R // Web3 Grant Program for DAOs
 
 FUND3R is a platform that provides tooling for end-to-end management of a grant lifecycle, significantly improving the barrier of entry to run your grant program.
 
@@ -6,13 +6,8 @@ FUND3R is a platform that provides tooling for end-to-end management of a grant 
 
 ## Demo
 
-### Video
-
-[![Demo Video](https://gov.near.org/uploads/default/original/3X/b/1/b129e92a44766a5af4ff61826d43028e1724a7cb.jpeg)](https://drive.google.com/file/d/1U3bBcozcY1WxMQeIfZHANTBica4_ossl/view)
-
-### Website
-
-https://fund3r-ui-demo.funding.nearweek.com/
+- Demo video: https://drive.google.com/file/d/1U3bBcozcY1WxMQeIfZHANTBica4_ossl/view
+- Demo website: https://fund3r-ui-demo.funding.nearweek.com/
 
 ## Development
 
