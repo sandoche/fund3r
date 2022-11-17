@@ -13,9 +13,9 @@ FUND3R is a platform that provides tooling for end-to-end management of a grant 
 
 The project is made of three services (each with its own README):
 
-- [UI](/ui)
-- [API](/api)
-- [Backoffice](/backoffice)
+- [ui](/ui)
+- [api](/api)
+- [backoffice](/backoffice)
 
 ### Set up
 
@@ -42,12 +42,13 @@ Coming soon
 You can either run each of these services separately or run them all together using docker compose:
 
 ```bash
-docker-compose up
+docker-compose -f ./docker-compose.yml up --build
 ```
 
 ## Authors
 
 - [Sandoche](https://github.com/sandoche)
+- [Pierre Le Guen](https://github.com/PierreLeGuen)
 
 ## License
 
