@@ -1,13 +1,13 @@
-# FUND3R // Web3 Grant Program for DAOs
+# FUND3R [![NEAR](https://img.shields.io/badge/NEAR-%E2%8B%88-111111.svg)](https://near.org/) [![License](https://img.shields.io/github/license/NEARFoundation/fund3r)](LICENSE)
 
 FUND3R is a platform that provides tooling for end-to-end management of a grant lifecycle, significantly improving the barrier of entry to run your grant program.
 
-[Read more](https://gov.near.org/t/demo-run-a-scalable-compliant-grant-program-on-top-of-your-dao/26640)
+👉 [Read more](https://gov.near.org/t/demo-run-a-scalable-compliant-grant-program-on-top-of-your-dao/26640)
 
 ## Demo
 
-- Demo video: https://drive.google.com/file/d/1U3bBcozcY1WxMQeIfZHANTBica4_ossl/view
-- Demo website: https://fund3r-ui-demo.funding.nearweek.com/
+- Watch the demo video: https://drive.google.com/file/d/1U3bBcozcY1WxMQeIfZHANTBica4_ossl/view
+- Try the demo website: https://fund3r-ui-demo.funding.nearweek.com/
 
 ## Development
 
