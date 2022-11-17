@@ -1,0 +1,60 @@
+{
+  "title": "Submit Milestone | FUND3R",
+  "blockchain": {
+    "title": "Milestone submission to the DAO",
+    "description": "In order to submit this Milestone, you need to publish it to the NEAR Blockhain.",
+    "button": "Submit milestone"
+  },
+  "form": {
+    "title": "Milestone {{ number }}",
+    "attachment": {
+      "label": "Do you have any documents to share with us? (Pitch Deck, Demo Video, ...)",
+      "placeholder": "Dropbox, Google Drive, Youtube ...",
+      "error": "Please share a valid URL"
+    },
+    "githubUrl": {
+      "label": "Github URL",
+      "placeholder": "Github URL",
+      "error": "Please a valid Github URL"
+    },
+    "comments": {
+      "label": "Comments",
+      "placeholder": "Comments"
+    },
+    "budget": {
+      "label": "Estimated Budget",
+      "placeholder": "10000",
+      "error": "Please enter a budget that is at least 1 USN."
+    },
+    "deliveryDate": {
+      "label": "Estimated Delivery Date",
+      "placeholder": "Estimated Delivery Date",
+      "error": "Please enter a valid date."
+    },
+    "description": {
+      "label": "Milestone Description",
+      "placeholder": "Milestone Description",
+      "error": "Please enter a description that is at least 1 characters long and less than 100."
+    },
+    "submit": "Submit milestone"
+  },
+  "error": {
+    "button": "Back to the grant application",
+    "generic": {
+      "description": "An error occurred while submitting the milestone. Please, try again later."
+    },
+    "already": {
+      "description": "You have already submitted this milestone."
+    },
+    "not_found": {
+      "description": "The milestone you are trying to submit does not exist."
+    },
+    "previous_not_submitted": {
+      "description": "You need to submit the previous milestone before submitting this one."
+    },
+    "tx_error": {
+      "title": "Transaction error",
+      "description": "The transaction was not submitted. Please, try again."
+    }
+  }
+}
