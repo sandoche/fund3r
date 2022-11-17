@@ -1,8 +1,15 @@
 version: "3.9"
 services:
-  api:
-    build: ./api/
   ui:
     build: ./ui/
+  api:
+    build: ./api/
+    depends_on:
+      - "mongo"
   admin:
     build: ./admin/
+    depends_on:
+      - "mongo"
+  mongo:
+    image: mongo
+    restart: always
