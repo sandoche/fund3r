@@ -1,0 +1,26 @@
+{
+  "title": "FUND3R",
+  "navbar": {
+    "call_to_action": "Start Grant Application",
+    "applications": "My Grant Application",
+    "signout": "Sign Out"
+  },
+  "errors": {
+    "401": {
+      "title": "Unauthorized",
+      "description": "You are not authorized to access this page."
+    },
+    "404": {
+      "title": "404 | Page Not Found",
+      "description": "The page you are looking for does not exist."
+    },
+    "500": {
+      "title": "500 | Internal Server Error",
+      "description": "There was an error on the server."
+    },
+    "generic": {
+      "message": "Sorry an error occured, we invite you to refresh this page and try again.",
+      "button": "Refresh"
+    }
+  }
+}
