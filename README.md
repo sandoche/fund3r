@@ -1,4 +1,4 @@
-# FUND3R [![NEAR](https://img.shields.io/badge/NEAR-%E2%8B%88-111111.svg)](https://near.org/) [![License](https://img.shields.io/github/license/NEARFoundation/fund3r)](LICENSE)
+# FUND3R [![NEAR](https://img.shields.io/badge/NEAR-%E2%8B%88-111111.svg)](https://near.org/) [![License](https://img.shields.io/github/license/NEARFoundation/fund3r)](LICENSE) [![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg)(https://t.me/FUND3RNEAR)]
 
 FUND3R is a platform that provides tooling for end-to-end management of a grant lifecycle, significantly improving the barrier of entry to run your grant program.
 
