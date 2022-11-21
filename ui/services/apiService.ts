@@ -4,7 +4,7 @@ import type NearApiSignatureInterface from 'types/NearApiSignatureInterface';
 import type { GrantApplicationInterface } from '@/types/GrantApplicationInterface';
 import type MilestoneInterface from '@/types/MilestoneInterface';
 
-const API_HOST = process.env.NEXT_PUBLIC_BACKEND_HOST;
+const API_HOST = process.env.BACKEND_HOST || process.env.NEXT_PUBLIC_BACKEND_HOST;
 
 const getAllGrantApplicationsOfUser = async (signature: NearApiSignatureInterface | undefined): Promise<GrantApplicationInterface[] | null> => {
   if (!signature) {

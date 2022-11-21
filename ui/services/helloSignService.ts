@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type NearApiSignatureInterface from 'types/NearApiSignatureInterface';
 
-const API_HOST = process.env.NEXT_PUBLIC_BACKEND_HOST;
+const API_HOST = process.env.BACKEND_HOST || process.env.NEXT_PUBLIC_BACKEND_HOST;
 
 const downloadFile = async (apiSignature: NearApiSignatureInterface | undefined, grantId: number | undefined) => {
   if (!apiSignature || !grantId) {
