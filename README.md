@@ -1,7 +1,5 @@
 # FUND3R [![NEAR](https://img.shields.io/badge/NEAR-%E2%8B%88-111111.svg)](https://near.org/) [![License](https://img.shields.io/github/license/NEARFoundation/fund3r)](LICENSE) [![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg)](https://t.me/FUND3RNEAR)
 
-⚠️ We are currently migrating from 3 repos to a mono repo for easier installation, this repository is not yet ready to be used
-
 FUND3R is a platform that provides tooling for end-to-end management of a grant lifecycle, significantly improving the barrier of entry to run your grant program.
 
 👉 [Read more](https://gov.near.org/t/demo-run-a-scalable-compliant-grant-program-on-top-of-your-dao/26640)
